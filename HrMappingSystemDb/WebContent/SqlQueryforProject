@@ -1,0 +1,7 @@
+create table empreg(email varchar(90),pass varchar(90),gen varchar(80),phone varchar(100))
+
+select * from empreg
+
+drop table empreg
+
+create table skillset(empname varchar(100),empid varchar(100),batchhnd varchar(90),studenthand varchar(100),currentpos varchar(100),applypos varchar(100),coursehandle varchar(100),comment varchar(100),status varchar(100))
